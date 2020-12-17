@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://nextjs.org">
     <img src="https://assets.last.js.com/image/upload/v1607554385/repositories/next-js/next-logo.png" height="128">
-    <h1 align="center">Next.js</h1>
+    <h1 align="center">Last.js</h1>
   </a>
 </p>
 
