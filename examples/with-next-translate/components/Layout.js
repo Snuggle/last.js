@@ -16,8 +16,8 @@ export default function Layout(props) {
 
       <footer>
         <span>{t('common:powered')} </span>
-        <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-          ▲ vercel
+        <a href="https://last.js.com" target="_blank" rel="noopener noreferrer">
+          ▲ last.js
         </a>
         <span>&amp;</span>
         <a

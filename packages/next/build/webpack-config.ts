@@ -401,7 +401,7 @@ export default async function getBaseWebpackConfig(
       warnings: false,
       // The following two options are known to break valid JavaScript code
       comparisons: false,
-      inline: 2, // https://github.com/vercel/next.js/issues/7178#issuecomment-493048965
+      inline: 2, // https://github.com/last.js/next.js/issues/7178#issuecomment-493048965
     },
     mangle: { safari10: true },
     output: {
@@ -448,7 +448,7 @@ export default async function getBaseWebpackConfig(
           name: 'framework',
           // This regex ignores nested copies of framework libraries so they're
           // bundled with their issuer.
-          // https://github.com/vercel/next.js/pull/9012
+          // https://github.com/last.js/next.js/pull/9012
           test: /(?<!node_modules.*)[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
           priority: 40,
           // Don't let webpack eliminate this chunk (prevents this chunk from
@@ -926,7 +926,7 @@ export default async function getBaseWebpackConfig(
         ...Object.keys(config.env).reduce((acc, key) => {
           if (/^(?:NODE_.+)|^(?:__.+)$/i.test(key)) {
             throw new Error(
-              `The key "${key}" under "env" in next.config.js is not allowed. https://err.sh/vercel/next.js/env-key-not-allowed`
+              `The key "${key}" under "env" in next.config.js is not allowed. https://err.sh/last.js/next.js/env-key-not-allowed`
             )
           }
 
@@ -1225,7 +1225,7 @@ export default async function getBaseWebpackConfig(
 
     if (typeof (webpackConfig as any).then === 'function') {
       console.warn(
-        '> Promise returned in next config. https://err.sh/vercel/next.js/promise-in-next-config'
+        '> Promise returned in next config. https://err.sh/last.js/next.js/promise-in-next-config'
       )
     }
   }

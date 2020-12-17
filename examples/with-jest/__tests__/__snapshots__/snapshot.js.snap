@@ -50,7 +50,7 @@ exports[`renders homepage unchanged 1`] = `
       </a>
       <a
         className="card"
-        href="https://github.com/vercel/next.js/tree/master/examples"
+        href="https://github.com/last.js/next.js/tree/master/examples"
       >
         <h3>
           Examples →
@@ -61,13 +61,13 @@ exports[`renders homepage unchanged 1`] = `
       </a>
       <a
         className="card"
-        href="https://vercel.com/import/nextjs"
+        href="https://last.js.com/import/nextjs"
       >
         <h3>
           Deploy →
         </h3>
         <p>
-          Instantly deploy your Next.js site to a public URL with Vercel.
+          Instantly deploy your Next.js site to a public URL with last.js.
         </p>
       </a>
     </div>

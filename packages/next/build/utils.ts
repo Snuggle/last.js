@@ -528,7 +528,7 @@ export async function buildStaticPaths(
 
   const expectedReturnVal =
     `Expected: { paths: [], fallback: boolean }\n` +
-    `See here for more info: https://err.sh/vercel/next.js/invalid-getstaticpaths-value`
+    `See here for more info: https://err.sh/last.js/next.js/invalid-getstaticpaths-value`
 
   if (
     !staticPathsResult ||

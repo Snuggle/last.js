@@ -12,7 +12,7 @@ The helper function `auth` helps to retrieve the token across pages and redirect
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-cookie-auth-fauna with-cookie-auth-fauna-app
@@ -48,18 +48,18 @@ yarn
 yarn dev
 ```
 
-### Deploy on Vercel
+### Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
 
 #### Deploy from Our Template
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-cookie-auth-fauna&id=70107786&env=FAUNA_SERVER_KEY&envDescription=API%20Keys%20required%20by%20Fauna%20CMS&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-cookie-auth-fauna%23run-locally)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/select-scope?c=1&s=https://github.com/last.js/next.js/tree/canary/examples/with-cookie-auth-fauna&id=70107786&env=FAUNA_SERVER_KEY&envDescription=API%20Keys%20required%20by%20Fauna%20CMS&envLink=https://github.com/last.js/next.js/tree/canary/examples/with-cookie-auth-fauna%23run-locally)

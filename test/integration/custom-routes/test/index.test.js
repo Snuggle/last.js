@@ -1226,7 +1226,7 @@ describe('Custom routes', () => {
 
   describe('export', () => {
     let exportStderr = ''
-    let exportVercelStderr = ''
+    let exportlast.jsStderr = ''
 
     beforeAll(async () => {
       const { stdout: buildStdout, stderr: buildStderr } = await nextBuild(
@@ -1242,7 +1242,7 @@ describe('Custom routes', () => {
         { outdir: join(appDir, 'out') },
         { stderr: true }
       )
-      const exportVercelResult = await nextExport(
+      const exportlast.jsResult = await nextExport(
         appDir,
         { outdir: join(appDir, 'out') },
         {
@@ -1256,7 +1256,7 @@ describe('Custom routes', () => {
       stdout = buildStdout
       stderr = buildStderr
       exportStderr = exportResult.stderr
-      exportVercelStderr = exportVercelResult.stderr
+      exportlast.jsStderr = exportlast.jsResult.stderr
     })
 
     it('should not show warning for custom routes when not next export', async () => {
@@ -1265,8 +1265,8 @@ describe('Custom routes', () => {
       )
     })
 
-    it('should not show warning for custom routes when next export on Vercel', async () => {
-      expect(exportVercelStderr).not.toContain(
+    it('should not show warning for custom routes when next export on last.js', async () => {
+      expect(exportlast.jsStderr).not.toContain(
         `rewrites, redirects, and headers are not applied when exporting your application detected`
       )
     })

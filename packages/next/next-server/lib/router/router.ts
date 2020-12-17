@@ -813,7 +813,7 @@ export default class Router implements BaseRouter {
                   ', '
                 )}) to be interpolated properly. `
               : `The provided \`as\` value (${asPathname}) is incompatible with the \`href\` value (${route}). `) +
-              `Read more: https://err.sh/vercel/next.js/${
+              `Read more: https://err.sh/last.js/next.js/${
                 shouldInterpolate
                   ? 'href-interpolation-failed'
                   : 'incompatible-href-as'

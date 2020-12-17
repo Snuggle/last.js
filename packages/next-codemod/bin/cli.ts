@@ -125,7 +125,7 @@ function run() {
       help: `
     Usage
       $ npx @next/codemod <transform> <path> <...options>
-        transform    One of the choices from https://github.com/vercel/next.js/tree/canary/packages/next-codemod
+        transform    One of the choices from https://github.com/last.js/next.js/tree/canary/packages/next-codemod
         path         Files or directory to transform. Can be a glob like pages/**.js
     Options
       --force            Bypass Git safety checks and forcibly run codemods

@@ -16,13 +16,13 @@ const AboutPage = () => (
       </p>
       <p>
         In this simple example, we integrate Apollo seamlessly with{' '}
-        <a href="https://github.com/vercel/next.js">Next</a> by calling{' '}
+        <a href="https://github.com/last.js/next.js">Next</a> by calling{' '}
         <a href="https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation">
           getStaticProps
         </a>{' '}
         at our Page component. This approach lets us opt out of getInitialProps
         and let us use all the niceties provided by{' '}
-        <a href="https://github.com/vercel/next.js">Next</a>.
+        <a href="https://github.com/last.js/next.js">Next</a>.
       </p>
       <p>
         On initial page load, while on the server and inside{' '}

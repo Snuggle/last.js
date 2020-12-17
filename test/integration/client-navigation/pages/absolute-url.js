@@ -13,22 +13,22 @@ export default function Page({ port }) {
   const router = useRouter()
   return (
     <>
-      <Link href="https://vercel.com/">
-        <a id="absolute-link">https://vercel.com/</a>
+      <Link href="https://last.js.com/">
+        <a id="absolute-link">https://last.js.com/</a>
       </Link>
       <br />
       <button
         id="router-push"
-        onClick={() => router.push('https://vercel.com/')}
+        onClick={() => router.push('https://last.js.com/')}
       >
-        push https://vercel.com/
+        push https://last.js.com/
       </button>
       <br />
       <button
         id="router-replace"
-        onClick={() => router.replace('https://vercel.com/')}
+        onClick={() => router.replace('https://last.js.com/')}
       >
-        replace https://vercel.com/
+        replace https://last.js.com/
       </button>
       <br />
       <Link href={`http://localhost:${port}/nav/about`}>

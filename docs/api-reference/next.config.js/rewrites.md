@@ -9,7 +9,7 @@ description: Add rewrites to your Next.js app.
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/rewrites">Rewrites</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/rewrites">Rewrites</a></li>
   </ul>
 </details>
 
@@ -95,7 +95,7 @@ module.exports = {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/custom-routes-proxying">Incremental adoption of Next.js</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/custom-routes-proxying">Incremental adoption of Next.js</a></li>
   </ul>
 </details>
 
@@ -132,7 +132,7 @@ module.exports = {
       },
       {
         source: '/:path*',
-        destination: `https://custom-routes-proxying-endpoint.vercel.app/:path*`,
+        destination: `https://custom-routes-proxying-endpoint.last.js.app/:path*`,
       },
     ]
   },

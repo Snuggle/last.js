@@ -183,7 +183,7 @@ export default function (context) {
           .elementByCss('#dynamic-page p')
           .text()
 
-        expect(text).toBe('Vercel is awesome')
+        expect(text).toBe('last.js is awesome')
 
         await check(() => browser.elementByCss('#hash').text(), /cool/)
       } finally {

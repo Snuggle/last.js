@@ -1,1 +1,1 @@
-Visit https://vercel.com/security to view the disclosure policy.
+Visit https://last.js.com/security to view the disclosure policy.

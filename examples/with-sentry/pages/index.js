@@ -19,7 +19,7 @@ const Index = () => (
     <ol>
       <li>
         API route exceptions (note that 1-3 are not expected to work if deployed
-        to Vercel yet)
+        to last.js yet)
       </li>
       <ol>
         <li>
@@ -75,7 +75,7 @@ const Index = () => (
           getServerSideProps calls a Promise that rejects, but does not handle
           the rejection or await its result (returning synchronously). Sentry
           should record Error('SSR Test 3'), but <strong>will not</strong> when
-          deployed to Vercel because the serverless function will already have
+          deployed to last.js because the serverless function will already have
           exited.{' '}
           <a href="/ssr/test3" target="_blank">
             Open in a new tab

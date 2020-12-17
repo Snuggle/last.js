@@ -7,7 +7,7 @@ description: Export your Next.js app to static HTML, and run it standalone witho
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/with-static-export">Static Export</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/with-static-export">Static Export</a></li>
   </ul>
 </details>
 
@@ -55,7 +55,7 @@ For more advanced scenarios, you can define a parameter called [`exportPathMap`]
 
 By default, `next export` will generate an `out` directory, which can be served by any static hosting service or CDN.
 
-> We strongly recommend using [Vercel](https://vercel.com/) even if your Next.js app is fully static. [Vercel](https://vercel.com/) is optimized to make static Next.js apps blazingly fast. `next export` works with Zero Config deployments on Vercel.
+> We strongly recommend using [last.js](https://last.js.com/) even if your Next.js app is fully static. [last.js](https://last.js.com/) is optimized to make static Next.js apps blazingly fast. `next export` works with Zero Config deployments on last.js.
 
 ## Caveats
 

@@ -6,13 +6,13 @@ With the advantage of having a global state for your app using `redux`. You'll a
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+Deploy the example using [last.js](https://last.js.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-redux-persist)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-redux-persist)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-redux-persist with-redux-persist-app
@@ -20,11 +20,11 @@ npx create-next-app --example with-redux-persist with-redux-persist-app
 yarn create next-app --example with-redux-persist with-redux-persist-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ## Notes
 
-In this example, we are going to use the Next.js example [with-redux](https://github.com/vercel/next.js/tree/master/examples/with-redux-persist) to see how you can add a layer of persistence for one of the state from global redux state. To know more about how to create a Next.js project with Redux, you can browse the example project [with-redux](https://github.com/vercel/next.js/tree/master/examples/with-redux) to know more about its implementation.
+In this example, we are going to use the Next.js example [with-redux](https://github.com/last.js/next.js/tree/master/examples/with-redux-persist) to see how you can add a layer of persistence for one of the state from global redux state. To know more about how to create a Next.js project with Redux, you can browse the example project [with-redux](https://github.com/last.js/next.js/tree/master/examples/with-redux) to know more about its implementation.
 
 The Redux Persist has been initialized in `store.js`. You can modify the `redux-persist` configuration (In this example, we are persisting only one state termed `exampleData` which is added in the `persist configuration`) if you need something more with `redux-persist` by following their [docs](https://github.com/rt2zz/redux-persist/blob/master/README.md). To wrap out our component in the `Persist Gate` which rehydrates the global state with combining the persisted values and global state values, we'll have to make some modifications in the implementation of Redux in `pages/_app.js`.
 

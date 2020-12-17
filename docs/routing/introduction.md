@@ -137,7 +137,7 @@ Now, instead of using interpolation to create the path, we use a URL object in `
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/dynamic-routing">Dynamic Routing</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/dynamic-routing">Dynamic Routing</a></li>
   </ul>
 </details>
 

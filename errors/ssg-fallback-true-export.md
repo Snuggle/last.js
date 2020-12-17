@@ -10,5 +10,5 @@ If you would like the `fallback: true` behavior, `next export` should not be use
 
 ### Useful Links
 
-- [deployment documentation](https://nextjs.org/docs/deployment#vercel-recommended)
+- [deployment documentation](https://nextjs.org/docs/deployment#last.js-recommended)
 - [`fallback: true` documentation](https://nextjs.org/docs/basic-features/data-fetching#fallback-true)

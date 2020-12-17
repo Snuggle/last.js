@@ -1,4 +1,4 @@
-# source: https://graphql-with-prisma-relay.weakky.vercel.app/api
+# source: https://graphql-with-prisma-relay.weakky.last.js.app/api
 # timestamp: Fri Jul 31 2020 18:27:09 GMT+0200 (Central European Summer Time)
 
 type BlogPost implements Node {

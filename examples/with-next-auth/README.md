@@ -16,7 +16,7 @@ More details about the providers can be found [here](https://next-auth.js.org/co
 
 It is vital that you know the deployment URL and define it in the environment file.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-next-auth with-next-auth-app
@@ -24,6 +24,6 @@ npx create-next-app --example with-next-auth with-next-auth-app
 yarn create next-app --example with-next-auth with-next-auth-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-**Note:** For production you need to know in advance the domain (deployment URL) of your application, as it would be required for OAuth to work, once you have it set it to the `NEXTAUTH_URL` environment variable under the settings of your Vercel project.
+**Note:** For production you need to know in advance the domain (deployment URL) of your application, as it would be required for OAuth to work, once you have it set it to the `NEXTAUTH_URL` environment variable under the settings of your last.js project.

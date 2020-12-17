@@ -719,7 +719,7 @@ const runTests = (dev = false) => {
     await browser.waitForElementByCss('#absolute-link').click()
     await check(
       () => browser.eval(() => window.location.origin),
-      'https://vercel.com'
+      'https://last.js.com'
     )
   })
 

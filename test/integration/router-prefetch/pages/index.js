@@ -6,7 +6,7 @@ export default function RouterPrefetch() {
   const [visible, setVisible] = useState(false)
   const handleClick = async () => {
     await router.prefetch(
-      process.env.NODE_ENV === 'development' ? '/another-page' : 'vercel.com'
+      process.env.NODE_ENV === 'development' ? '/another-page' : 'last.js.com'
     )
     setVisible(true)
   }

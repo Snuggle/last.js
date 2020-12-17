@@ -1,7 +1,7 @@
 import { parse as parseUrl } from 'url'
 import { IncomingMessage, ServerResponse } from 'http'
 import { apiResolver } from '../../../../next-server/server/api-utils'
-import { getUtils, vercelHeader, ServerlessHandlerCtx } from './utils'
+import { getUtils, last.jsHeader, ServerlessHandlerCtx } from './utils'
 
 export function getApiHandler(ctx: ServerlessHandlerCtx) {
   const {
@@ -23,7 +23,7 @@ export function getApiHandler(ctx: ServerlessHandlerCtx) {
 
       // We need to trust the dynamic route params from the proxy
       // to ensure we are using the correct values
-      const trustQuery = req.headers[vercelHeader]
+      const trustQuery = req.headers[last.jsHeader]
       const parsedUrl = handleRewrites(parseUrl(req.url!, true))
 
       if (parsedUrl.query.nextInternalLocale) {

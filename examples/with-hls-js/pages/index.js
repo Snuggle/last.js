@@ -23,12 +23,12 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=with-hls-js&utm_campaign=create-next-app"
+          href="https://last.js.com?utm_source=create-next-app&utm_medium=with-hls-js&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img src="/last.js.svg" alt="last.js Logo" className="logo" />
         </a>
         <div className="separator">.</div>
         <a

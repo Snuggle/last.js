@@ -3,13 +3,13 @@
   "version": "10.0.4-canary.7",
   "description": "A development-only overlay for developing React applications.",
   "repository": {
-    "url": "vercel/next.js",
+    "url": "last.js/next.js",
     "directory": "packages/react-dev-overlay"
   },
   "files": [
     "lib/"
   ],
-  "author": "Joe Haddad <timer@vercel.com>",
+  "author": "Joe Haddad <timer@last.js.com>",
   "license": "MIT",
   "scripts": {
     "prepublish": "tsc -d -p tsconfig.json",

@@ -25,7 +25,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/last.js/next.js/tree/master/examples"
             className={styles.card}
           >
             <h3>Examples &rarr;</h3>
@@ -33,12 +33,12 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://last.js.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
             <h3>Deploy &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Instantly deploy your Next.js site to a public URL with last.js.
             </p>
           </a>
         </div>
@@ -46,12 +46,12 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://last.js.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/last.js.svg" alt="last.js Logo" className={styles.logo} />
         </a>
       </footer>
     </div>

@@ -1033,7 +1033,7 @@ describe('CSS Support', () => {
     })
   })
 
-  // https://github.com/vercel/next.js/issues/15468
+  // https://github.com/last.js/next.js/issues/15468
   describe('CSS Property Ordering', () => {
     const appDir = join(fixturesDir, 'next-issue-15468')
 
@@ -1157,7 +1157,7 @@ describe('CSS Support', () => {
     })
   })
 
-  // https://github.com/vercel/next.js/issues/18557
+  // https://github.com/last.js/next.js/issues/18557
   describe('CSS page transition inject <style> with nonce so it works with CSP header', () => {
     const appDir = join(fixturesDir, 'csp-style-src-nonce')
     let app, appPort
@@ -1311,7 +1311,7 @@ describe('CSS Support', () => {
     })
   })
 
-  // https://github.com/vercel/next.js/issues/12445
+  // https://github.com/last.js/next.js/issues/12445
   describe('CSS Modules Composes Ordering', () => {
     const appDir = join(fixturesDir, 'composes-ordering')
     let app, appPort
@@ -1701,7 +1701,7 @@ describe('CSS Support', () => {
     })
   })
 
-  // https://github.com/vercel/next.js/issues/12343
+  // https://github.com/last.js/next.js/issues/12343
   describe('Basic CSS Modules Ordering', () => {
     const appDir = join(fixturesDir, 'next-issue-12343')
     let app, appPort
@@ -1819,8 +1819,8 @@ describe('CSS Support', () => {
         // results
         const howMany = content.includes('p{') ? 4 : 2
 
-        expect(content.match(/\(\/vercel\.svg/g).length).toBe(howMany)
-        // expect(content.match(/\(vercel\.svg/g).length).toBe(howMany)
+        expect(content.match(/\(\/last.js\.svg/g).length).toBe(howMany)
+        // expect(content.match(/\(last.js\.svg/g).length).toBe(howMany)
         expect(content.match(/\(\/_next\/static\/media/g).length).toBe(2)
         expect(content.match(/\(https:\/\//g).length).toBe(howMany)
       }

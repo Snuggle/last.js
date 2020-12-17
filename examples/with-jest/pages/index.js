@@ -29,16 +29,16 @@ const Home = () => (
         </a>
 
         <a
-          href="https://github.com/vercel/next.js/tree/master/examples"
+          href="https://github.com/last.js/next.js/tree/master/examples"
           className={styles.card}
         >
           <h3>Examples &rarr;</h3>
           <p>Discover and deploy boilerplate example Next.js projects.</p>
         </a>
 
-        <a href="https://vercel.com/import/nextjs" className={styles.card}>
+        <a href="https://last.js.com/import/nextjs" className={styles.card}>
           <h3>Deploy &rarr;</h3>
-          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          <p>Instantly deploy your Next.js site to a public URL with last.js.</p>
         </a>
       </div>
     </main>

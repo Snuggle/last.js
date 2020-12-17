@@ -50,7 +50,7 @@ const didPrefetch = async (pathname) => {
 }
 
 function runCommonTests() {
-  // See https://github.com/vercel/next.js/issues/18437
+  // See https://github.com/last.js/next.js/issues/18437
   it('should not have a race condition with a click handler', async () => {
     const browser = await webdriver(appPort, '/click-away-race-condition')
     await browser.elementByCss('#click-me').click()

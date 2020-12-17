@@ -135,7 +135,7 @@ describe('Client Navigation', () => {
       await browser.waitForElementByCss('#absolute-link').click()
       await check(
         () => browser.eval(() => window.location.origin),
-        'https://vercel.com'
+        'https://last.js.com'
       )
     })
 
@@ -993,7 +993,7 @@ describe('Client Navigation', () => {
         await browser.waitForElementByCss('#router-push').click()
         await check(
           () => browser.eval(() => window.location.origin),
-          'https://vercel.com'
+          'https://last.js.com'
         )
       })
 
@@ -1005,7 +1005,7 @@ describe('Client Navigation', () => {
         await browser.waitForElementByCss('#router-replace').click()
         await check(
           () => browser.eval(() => window.location.origin),
-          'https://vercel.com'
+          'https://last.js.com'
         )
       })
 

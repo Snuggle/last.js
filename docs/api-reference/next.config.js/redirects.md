@@ -9,7 +9,7 @@ description: Add redirects to your Next.js app.
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/redirects">Redirects</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/redirects">Redirects</a></li>
   </ul>
 </details>
 

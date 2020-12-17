@@ -8,11 +8,11 @@ These configs do not apply when exporting your Next.js application manually.
 
 #### Possible Ways to Fix It
 
-Disable the `rewrites`, `redirects`, and `headers` from your `next.config.js` when using `next export` to deploy your application or deploy your application using [a method](https://nextjs.org/docs/deployment#vercel-recommended) that supports these configs.
+Disable the `rewrites`, `redirects`, and `headers` from your `next.config.js` when using `next export` to deploy your application or deploy your application using [a method](https://nextjs.org/docs/deployment#last.js-recommended) that supports these configs.
 
 ### Useful Links
 
-- [Deployment Documentation](https://nextjs.org/docs/deployment#vercel-recommended)
+- [Deployment Documentation](https://nextjs.org/docs/deployment#last.js-recommended)
 - [`next export` Documentation](https://nextjs.org/docs/advanced-features/static-html-export)
 - [Rewrites Documentation](https://nextjs.org/docs/api-reference/next.config.js/rewrites)
 - [Redirects Documentation](https://nextjs.org/docs/api-reference/next.config.js/redirects)

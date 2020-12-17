@@ -4,7 +4,7 @@ This example uses [Preact](https://github.com/preactjs/preact) instead of React.
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example using-preact using-preact-app
@@ -12,7 +12,7 @@ npx create-next-app --example using-preact using-preact-app
 yarn create next-app --example using-preact using-preact-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ### Aliasing react -> preact
 
@@ -20,4 +20,4 @@ Using `preact` with `next.js` depends on aliasing react packages to preact ones 
 
 ### next-plugin-preact
 
-This example was [updated](https://github.com/vercel/next.js/pull/18588) to use [`next-plugin-preact`](https://github.com/preactjs/next-plugin-preact) and now requires minimal configuration, if you want to add preact without a plugin, or see how it works, head to the previous [`next.config.js`](https://github.com/vercel/next.js/blob/629884af7d3ced97b8c2ec7aebdfb1a3a5d808f0/examples/using-preact/next.config.js).
+This example was [updated](https://github.com/last.js/next.js/pull/18588) to use [`next-plugin-preact`](https://github.com/preactjs/next-plugin-preact) and now requires minimal configuration, if you want to add preact without a plugin, or see how it works, head to the previous [`next.config.js`](https://github.com/last.js/next.js/blob/629884af7d3ced97b8c2ec7aebdfb1a3a5d808f0/examples/using-preact/next.config.js).

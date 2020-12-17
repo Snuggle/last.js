@@ -1,31 +1,31 @@
 .p {
-  background-image: url('/vercel.svg');
+  background-image: url('/last.js.svg');
 }
 
 .p:nth-child(1) {
-  background-image: url(/vercel.svg);
+  background-image: url(/last.js.svg);
 }
 
 // .p:nth-child(2) {
-//   background-image: url('./vercel.svg');
+//   background-image: url('./last.js.svg');
 // }
 
 // .p:nth-child(3) {
-//   background-image: url(./vercel.svg);
+//   background-image: url(./last.js.svg);
 // }
 
 p:nth-child(4) {
-  background-image: url('./public/vercel.svg');
+  background-image: url('./public/last.js.svg');
 }
 
 p:nth-child(5) {
-  background-image: url(./public/vercel.svg);
+  background-image: url(./public/last.js.svg);
 }
 
 .div {
-  background-image: url('https://vercel.com/vercel.svg');
+  background-image: url('https://last.js.com/last.js.svg');
 }
 
 .div:nth-child(1) {
-  background-image: url('https://vercel.com/vercel.svg');
+  background-image: url('https://last.js.com/last.js.svg');
 }

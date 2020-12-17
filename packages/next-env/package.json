@@ -10,10 +10,10 @@
   "description": "Next.js dotenv file loading",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/next.js",
+    "url": "https://github.com/last.js/next.js",
     "directory": "packages/next-env"
   },
-  "author": "Next.js Team <support@vercel.com>",
+  "author": "Next.js Team <support@last.js.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "types/index.d.ts",

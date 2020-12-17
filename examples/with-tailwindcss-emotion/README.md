@@ -1,18 +1,18 @@
 # Tailwind CSS with Emotion.js example
 
-This is an example of how you can add [tailwind CSS](https://tailwindcss.com/) with [Emotion.js](https://emotion.sh/docs/introduction) in your web app. It takes inspiration from [examples/with-tailwindcss](https://github.com/vercel/next.js/blob/canary/examples/with-tailwindcss/README.md).
+This is an example of how you can add [tailwind CSS](https://tailwindcss.com/) with [Emotion.js](https://emotion.sh/docs/introduction) in your web app. It takes inspiration from [examples/with-tailwindcss](https://github.com/last.js/next.js/blob/canary/examples/with-tailwindcss/README.md).
 
 `xwind` is used to add tailwind classes inside Emotion by injecting the tailwind CSS into the styled component. No need to use CSS files, autoprefix, minifier, etc. You will get the full benefits of Emotion.
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+Deploy the example using [last.js](https://last.js.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss-emotion)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-tailwindcss-emotion)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-tailwindcss-emotion with-tailwindcss-emotion-app
@@ -20,7 +20,7 @@ npx create-next-app --example with-tailwindcss-emotion with-tailwindcss-emotion-
 yarn create next-app --example with-tailwindcss-emotion with-tailwindcss-emotion-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ## Notes
 

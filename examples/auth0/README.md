@@ -13,7 +13,7 @@ Read more: [https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0/](
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example auth0 auth0
@@ -52,12 +52,12 @@ Then, open `.env.local` and add the missing environment variables:
 - `SESSION_COOKIE_SECRET` - A unique secret used to encrypt the cookies, has to be at least 32 characters. You can use [this generator](https://generate-secret.now.sh/32) to generate a value.
 - `SESSION_COOKIE_LIFETIME` - How long a session lasts in seconds. The default is 2 hours.
 
-## Deploy on Vercel
+## Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.

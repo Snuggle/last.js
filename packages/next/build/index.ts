@@ -113,7 +113,7 @@ export default async function build(
 ): Promise<void> {
   if (!(await isWriteable(dir))) {
     throw new Error(
-      '> Build directory is not writeable. https://err.sh/vercel/next.js/build-dir-not-writeable'
+      '> Build directory is not writeable. https://err.sh/last.js/next.js/build-dir-not-writeable'
     )
   }
 
@@ -235,7 +235,7 @@ export default async function build(
     throw new Error(
       `Conflicting public and page file${
         numConflicting === 1 ? ' was' : 's were'
-      } found. https://err.sh/vercel/next.js/conflicting-public-file-page\n${conflictingPublicFiles.join(
+      } found. https://err.sh/last.js/next.js/conflicting-public-file-page\n${conflictingPublicFiles.join(
         '\n'
       )}`
     )
@@ -414,14 +414,14 @@ export default async function build(
         clientConfig.optimization.minimizer.length === 0))
   ) {
     Log.warn(
-      `Production code optimization has been disabled in your project. Read more: https://err.sh/vercel/next.js/minification-disabled`
+      `Production code optimization has been disabled in your project. Read more: https://err.sh/last.js/next.js/minification-disabled`
     )
   }
 
   const webpackBuildStart = process.hrtime()
 
   let result: CompilerResult = { warnings: [], errors: [] }
-  // TODO: why do we need this?? https://github.com/vercel/next.js/issues/8253
+  // TODO: why do we need this?? https://github.com/last.js/next.js/issues/8253
   if (isLikeServerless) {
     const clientResult = await runCompiler(clientConfig)
     // Fail build if clientResult contains errors
@@ -466,7 +466,7 @@ export default async function build(
       const parsed = page_name_regex.exec(error)
       const page_name = parsed && parsed.groups && parsed.groups.page_name
       throw new Error(
-        `webpack build failed: found page without a React Component as default export in pages/${page_name}\n\nSee https://err.sh/vercel/next.js/page-without-valid-component for more info.`
+        `webpack build failed: found page without a React Component as default export in pages/${page_name}\n\nSee https://err.sh/last.js/next.js/page-without-valid-component for more info.`
       )
     }
 
@@ -478,7 +478,7 @@ export default async function build(
       error.indexOf('__next_polyfill__') > -1
     ) {
       throw new Error(
-        '> webpack config.resolve.alias was incorrectly overridden. https://err.sh/vercel/next.js/invalid-resolve-alias'
+        '> webpack config.resolve.alias was incorrectly overridden. https://err.sh/last.js/next.js/invalid-resolve-alias'
       )
     }
     throw new Error('> Build failed because of webpack errors')
@@ -759,7 +759,7 @@ export default async function build(
         .map((pg) => `pages${pg}`)
         .join(
           '\n'
-        )}\n\nSee https://err.sh/vercel/next.js/page-without-valid-component for more info.\n`
+        )}\n\nSee https://err.sh/last.js/next.js/page-without-valid-component for more info.\n`
     )
   }
 

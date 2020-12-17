@@ -19,7 +19,7 @@ export const CTA = () => (
 
     <ChakraLink
       isExternal
-      href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui-typescript"
+      href="https://github.com/last.js/next.js/blob/canary/examples/with-chakra-ui-typescript"
       flexGrow={3}
       mx={2}
     >

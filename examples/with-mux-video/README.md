@@ -4,19 +4,19 @@ This example uses Mux Video, an API-first platform for video. The example featur
 
 ## Demo
 
-### [https://with-mux-video.vercel.app/](https://with-mux-video.vercel.app/)
+### [https://with-mux-video.last.js.app/](https://with-mux-video.last.js.app/)
 
 ### This project was used to create [stream.new](https://stream.new/)
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com/home):
+Deploy the example using [last.js](https://last.js.com/home):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-mux-video)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-mux-video)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-mux-video with-mux-video-app
@@ -55,17 +55,17 @@ Then, go to the [settings page](https://dashboard.mux.com/settings/access-tokens
 - `MUX_TOKEN_ID` should be the `TOKEN ID` of your new token
 - `MUX_TOKEN_SECRET` should be `TOKEN SECRET`
 
-### Step 3. Deploy on Vercel
+### Step 3. Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-To deploy on Vercel, you need to set the environment variables using [Vercel CLI](https://vercel.com/download) ([Documentation](https://vercel.com/docs/cli#commands/secrets)).
+To deploy on last.js, you need to set the environment variables using [last.js CLI](https://last.js.com/download) ([Documentation](https://last.js.com/docs/cli#commands/secrets)).
 
-Install the [Vercel CLI](https://vercel.com/download), log in to your account from the CLI, and run the following commands to add the environment variables. Replace the values with the corresponding strings in `.env.local`:
+Install the [last.js CLI](https://last.js.com/download), log in to your account from the CLI, and run the following commands to add the environment variables. Replace the values with the corresponding strings in `.env.local`:
 
 ```bash
-vercel secrets add next_example_mux_token_id <MUX_TOKEN_ID>
-vercel secrets add next_example_mux_token_secret <MUX_TOKEN_SECRET>
+last.js secrets add next_example_mux_token_id <MUX_TOKEN_ID>
+last.js secrets add next_example_mux_token_secret <MUX_TOKEN_SECRET>
 ```
 
-Then push the project to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) to deploy.
+Then push the project to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) to deploy.

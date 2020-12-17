@@ -7,9 +7,9 @@ description: Learn different strategies for incrementally adopting Next.js into 
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/rewrites">Rewrites</a></li>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/redirects">Redirects</a></li>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/with-zones">Multi-Zones</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/rewrites">Rewrites</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/redirects">Redirects</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/with-zones">Multi-Zones</a></li>
   </ul>
 </details>
 
@@ -68,14 +68,14 @@ To learn more about rewrites, take a look at our [documentation](/docs/api-refer
 
 ### Micro-Frontends with Monorepos and Subdomains
 
-Next.js and [Vercel](https://vercel.com) make it easy to adopt [micro-frontends](https://martinfowler.com/articles/micro-frontends.html) and deploy as a [Monorepo](https://vercel.com/blog/monorepos). This allows you to use [subdomains](https://en.wikipedia.org/wiki/Subdomain) to adopt new applications incrementally. Some benefits of micro-frontends:
+Next.js and [last.js](https://last.js.com) make it easy to adopt [micro-frontends](https://martinfowler.com/articles/micro-frontends.html) and deploy as a [Monorepo](https://last.js.com/blog/monorepos). This allows you to use [subdomains](https://en.wikipedia.org/wiki/Subdomain) to adopt new applications incrementally. Some benefits of micro-frontends:
 
 - Smaller, more cohesive and maintainable codebases.
 - More scalable organizations with decoupled, autonomous teams.
 - The ability to upgrade, update, or even rewrite parts of the frontend in a more incremental fashion.
 
-Once your monorepo is set up, push changes to your Git repository as usual and you'll see the commits deployed to the Vercel projects you've connected.
+Once your monorepo is set up, push changes to your Git repository as usual and you'll see the commits deployed to the last.js projects you've connected.
 
 ## Conclusion
 
-To learn more, read about [subpaths](/docs/api-reference/next.config.js/basepath.md) and [rewrites](/docs/api-reference/next.config.js/rewrites.md) or [deploy an example with micro-frontends](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-zones).
+To learn more, read about [subpaths](/docs/api-reference/next.config.js/basepath.md) and [rewrites](/docs/api-reference/next.config.js/rewrites.md) or [deploy an example with micro-frontends](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-zones).

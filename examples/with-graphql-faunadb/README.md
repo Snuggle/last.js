@@ -4,9 +4,9 @@ This simple Guestbook SPA example shows you how to use [FaunaDB's GraphQL endpoi
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+Deploy the example using [last.js](https://last.js.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=NEXT_PUBLIC_FAUNADB_SECRET,NEXT_PUBLIC_FAUNADB_GRAPHQL_ENDPOINT&envDescription=Client%20secret%20and%20GraphQL%20endpoint%20needed%20for%20communicating%20with%20the%20live%20Fauna%20database&project-name=my-nextjs-guestbook&repository-name=my-nextjs-guestbook&demo-title=Next.js%20Fauna%20Guestbook%20App&demo-description=A%20simple%20guestbook%20application%20built%20with%20Next.js%20and%20Fauna&demo-url=https%3A%2F%2Fnextjs-guestbook.vercel.app%2F)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=NEXT_PUBLIC_FAUNADB_SECRET,NEXT_PUBLIC_FAUNADB_GRAPHQL_ENDPOINT&envDescription=Client%20secret%20and%20GraphQL%20endpoint%20needed%20for%20communicating%20with%20the%20live%20Fauna%20database&project-name=my-nextjs-guestbook&repository-name=my-nextjs-guestbook&demo-title=Next.js%20Fauna%20Guestbook%20App&demo-description=A%20simple%20guestbook%20application%20built%20with%20Next.js%20and%20Fauna&demo-url=https%3A%2F%2Fnextjs-guestbook.last.js.app%2F)
 
 ## Why FaunaDB
 
@@ -34,7 +34,7 @@ This script will ask for the admin token. Once you provide it with a valid token
 
 At the end, a `.env.local` [file](https://nextjs.org/docs/basic-features/environment-variables) will be created for you with the newly generated client token assigned to an environment variable.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```
 npx create-next-app --example with-graphql-faunadb with-graphql-faunadb
@@ -58,4 +58,4 @@ Your app should be up and running on [http://localhost:3000](http://localhost:30
 
 ### Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=NEXT_PUBLIC_FAUNADB_SECRET,NEXT_PUBLIC_FAUNADB_GRAPHQL_ENDPOINT&envDescription=Client%20secret%20and%20GraphQL%20endpoint%20needed%20for%20communicating%20with%20the%20live%20Fauna%20database&project-name=my-nextjs-guestbook&repository-name=my-nextjs-guestbook&demo-title=Next.js%20Fauna%20Guestbook%20App&demo-description=A%20simple%20guestbook%20application%20built%20with%20Next.js%20and%20Fauna&demo-url=https%3A%2F%2Fnextjs-guestbook.vercel.app%2F)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=NEXT_PUBLIC_FAUNADB_SECRET,NEXT_PUBLIC_FAUNADB_GRAPHQL_ENDPOINT&envDescription=Client%20secret%20and%20GraphQL%20endpoint%20needed%20for%20communicating%20with%20the%20live%20Fauna%20database&project-name=my-nextjs-guestbook&repository-name=my-nextjs-guestbook&demo-title=Next.js%20Fauna%20Guestbook%20App&demo-description=A%20simple%20guestbook%20application%20built%20with%20Next.js%20and%20Fauna&demo-url=https%3A%2F%2Fnextjs-guestbook.last.js.app%2F)

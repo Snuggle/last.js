@@ -58,7 +58,7 @@ import {
 
 function noRouter() {
   const message =
-    'No router instance found. you should only use "next/router" inside the client side of your app. https://err.sh/vercel/next.js/no-router-instance'
+    'No router instance found. you should only use "next/router" inside the client side of your app. https://err.sh/last.js/next.js/no-router-instance'
   throw new Error(message)
 }
 
@@ -338,7 +338,7 @@ function checkRedirectValues(
       `Invalid redirect object returned from ${method} for ${req.url}\n` +
         errors.join(' and ') +
         '\n' +
-        `See more info here: https://err.sh/vercel/next.js/invalid-redirect-gssp`
+        `See more info here: https://err.sh/last.js/next.js/invalid-redirect-gssp`
     )
   }
 }
@@ -351,7 +351,7 @@ export async function renderToHTML(
   renderOpts: RenderOpts
 ): Promise<string | null> {
   // In dev we invalidate the cache by appending a timestamp to the resource URL.
-  // This is a workaround to fix https://github.com/vercel/next.js/issues/5860
+  // This is a workaround to fix https://github.com/last.js/next.js/issues/5860
   // TODO: remove this workaround when https://bugs.webkit.org/show_bug.cgi?id=187726 is fixed.
   renderOpts.devOnlyCacheBusterQueryString = renderOpts.dev
     ? renderOpts.devOnlyCacheBusterQueryString || `?ts=${Date.now()}`
@@ -867,7 +867,7 @@ export async function renderToHTML(
   ) {
     console.warn(
       `The prop \`url\` is a reserved prop in Next.js for legacy reasons and will be overridden on page ${pathname}\n` +
-        `See more info here: https://err.sh/vercel/next.js/reserved-page-prop`
+        `See more info here: https://err.sh/last.js/next.js/reserved-page-prop`
     )
   }
 
@@ -922,7 +922,7 @@ export async function renderToHTML(
 
     if (dev && (props.router || props.Component)) {
       throw new Error(
-        `'router' and 'Component' can not be returned in getInitialProps from _app.js https://err.sh/vercel/next.js/cant-override-next-props`
+        `'router' and 'Component' can not be returned in getInitialProps from _app.js https://err.sh/last.js/next.js/cant-override-next-props`
       )
     }
 

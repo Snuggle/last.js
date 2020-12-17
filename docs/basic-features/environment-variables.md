@@ -9,7 +9,7 @@ description: Learn to add and access environment variables in your Next.js appli
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/environment-variables">Environment Variables</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/environment-variables">Environment Variables</a></li>
   </ul>
 </details>
 
@@ -107,16 +107,16 @@ Next.js allows you to set defaults in `.env` (all environments), `.env.developme
 
 > **Note**: `.env`, `.env.development`, and `.env.production` files should be included in your repository as they define defaults. **`.env*.local` should be added to `.gitignore`**, as those files are intended to be ignored. `.env.local` is where secrets can be stored.
 
-## Environment Variables on Vercel
+## Environment Variables on last.js
 
-When deploying on [Vercel](https://vercel.com) you can configure secrets in the [Environment Variables](https://vercel.com/docs/v2/build-step#environment-variables) section of the project in the Vercel dashboard.
+When deploying on [last.js](https://last.js.com) you can configure secrets in the [Environment Variables](https://last.js.com/docs/v2/build-step#environment-variables) section of the project in the last.js dashboard.
 
 You can still use `.env`, `.env.development` and `.env.production` to add defaults.
 
-If you've configured [Development Environment Variables](https://vercel.com/docs/v2/build-step#development-environment-variables) you can pull them into a `.env.local` for usage on your local machine using the following command:
+If you've configured [Development Environment Variables](https://last.js.com/docs/v2/build-step#development-environment-variables) you can pull them into a `.env.local` for usage on your local machine using the following command:
 
 ```bash
-vercel env pull .env.local
+last.js env pull .env.local
 ```
 
 ## Test Environment Variables

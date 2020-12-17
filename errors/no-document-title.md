@@ -29,4 +29,4 @@ export default MyApp
 
 ### Useful Links
 
-- [The issue this was reported in: #4596](https://github.com/vercel/next.js/issues/4596)
+- [The issue this was reported in: #4596](https://github.com/last.js/next.js/issues/4596)

@@ -63,7 +63,7 @@ export default function Home() {
                   </CardText>
                   <Button
                     color="primary"
-                    href="https://github.com/vercel/next.js/tree/master/examples"
+                    href="https://github.com/last.js/next.js/tree/master/examples"
                   >
                     More &rarr;
                   </Button>
@@ -76,11 +76,11 @@ export default function Home() {
                   <CardTitle tag="h5">Deploy</CardTitle>
                   <CardText>
                     Instantly deploy your Next.js site to a public URL with
-                    Vercel.
+                    last.js.
                   </CardText>
                   <Button
                     color="primary"
-                    href="https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
+                    href="https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
                   >
                     More &rarr;
                   </Button>
@@ -93,12 +93,12 @@ export default function Home() {
 
       <footer className="cntr-footer">
         <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
+          href="https://last.js.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
+          <img src="/last.js.svg" alt="last.js Logo" className="sml-logo" />
         </a>
       </footer>
     </Container>

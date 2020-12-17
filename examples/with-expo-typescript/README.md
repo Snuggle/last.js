@@ -20,15 +20,15 @@ This is a starter project for creating universal React apps with Next.js, Expo, 
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com) (web only):
+Deploy the example using [last.js](https://last.js.com) (web only):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-expo)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-expo)
 
 Deploy the native app to the App store and Play store using [Expo deployment](https://docs.expo.io/distribution/app-stores/).
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-expo-typescript with-expo-typescript-app
@@ -42,7 +42,7 @@ yarn create next-app --example with-expo-typescript with-expo-typescript-app
 
 - Start the Next.js project with `yarn dev` (`yarn next dev`).
 
-Deploy the web app to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy the web app to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ### Running native
 

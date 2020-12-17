@@ -8,9 +8,9 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 ## Deploy your own
 
-Once you have access to [the environment variables you'll need](#step-2-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Once you have access to [the environment variables you'll need](#step-2-set-up-environment-variables), deploy the example using [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-buttercms&env=BUTTERCMS_API_KEY,BUTTERCMS_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20ButterCMS&envLink=https://vercel.link/buttercms-env)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/git?c=1&s=https://github.com/last.js/next.js/tree/canary/examples/cms-buttercms&env=BUTTERCMS_API_KEY,BUTTERCMS_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20ButterCMS&envLink=https://last.js.link/buttercms-env)
 
 ### Related examples
 
@@ -30,7 +30,7 @@ Once you have access to [the environment variables you'll need](#step-2-set-up-e
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example cms-buttercms cms-buttercms-app
@@ -73,7 +73,7 @@ yarn install
 yarn dev
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/last.js/next.js/discussions).
 
 ### Step 4. Try preview mode
 
@@ -99,18 +99,18 @@ You should now be able to see the draft post. To exit the preview mode, you can 
 
 **Tip**: [You can set the preview URL on ButterCMS](https://buttercms.com/kb/preview-urls).
 
-### Step 5. Deploy on Vercel
+### Step 5. Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
 
 #### Deploy from Our Template
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-buttercms&env=BUTTERCMS_API_KEY,BUTTERCMS_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20ButterCMS&envLink=https://vercel.link/buttercms-env)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/git?c=1&s=https://github.com/last.js/next.js/tree/canary/examples/cms-buttercms&env=BUTTERCMS_API_KEY,BUTTERCMS_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20ButterCMS&envLink=https://last.js.link/buttercms-env)

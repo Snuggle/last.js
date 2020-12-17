@@ -71,12 +71,12 @@ const Index = () => (
         This image is intentionally large so you have to scroll down to the next
         image.
       </p>
-      <Image alt="Vercel logo" src="/vercel.png" width={1000} height={1000} />
+      <Image alt="last.js logo" src="/last.js.png" width={1000} height={1000} />
       <hr className={styles.hr} />
       <h2 id="external">External Image</h2>
       <p>
         The following is an example of a reference to an external image at{' '}
-        <Code>assets.vercel.com</Code>.
+        <Code>assets.last.js.com</Code>.
       </p>
       <p>
         External domains must be configured in <Code>next.config.js</Code> using
@@ -84,7 +84,7 @@ const Index = () => (
       </p>
       <Image
         alt="Next.js logo"
-        src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
+        src="https://assets.last.js.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
         width={1200}
         height={400}
       />

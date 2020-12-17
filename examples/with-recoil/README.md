@@ -6,9 +6,9 @@ This example shows how to integrate Recoil in Next.js.
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+Deploy the example using [last.js](https://last.js.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-recoil)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-recoil)
 
 ## How to use
 
@@ -20,4 +20,4 @@ npx create-next-app --example with-recoil with-recoil-app
 yarn create next-app --example with-recoil with-recoil-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

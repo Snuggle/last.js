@@ -36,7 +36,7 @@ describe('Fallback asPath normalizing', () => {
     const html = await fetchViaHTTP(appPort, '/blog/[post]', undefined, {
       headers: {
         'x-now-route-matches': '1=post-1',
-        'x-vercel-id': 'hi',
+        'x-last.js-id': 'hi',
       },
     }).then((res) => res.text())
 
@@ -58,7 +58,7 @@ describe('Fallback asPath normalizing', () => {
       {
         headers: {
           'x-now-route-matches': '1=post-abc',
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
         },
       }
     ).then((res) => res.text())
@@ -81,7 +81,7 @@ describe('Fallback asPath normalizing', () => {
       {
         headers: {
           'x-now-route-matches': '1=post-1&2=comment-2',
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
         },
       }
     ).then((res) => res.text())
@@ -104,7 +104,7 @@ describe('Fallback asPath normalizing', () => {
       {
         headers: {
           'x-now-route-matches': '1=post-abc&2=comment-cba',
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
         },
       }
     ).then((res) => res.text())

@@ -57,7 +57,7 @@ Additionally, the following methods are also included inside `router`:
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/using-router">Using Router</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/using-router">Using Router</a></li>
   </ul>
 </details>
 
@@ -304,7 +304,7 @@ export default function Page() {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/with-loading">With a page loading indicator</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/with-loading">With a page loading indicator</a></li>
   </ul>
 </details>
 

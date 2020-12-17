@@ -7,7 +7,7 @@ description: Next.js has built-in support for internationalized routing and lang
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/i18n-routing">i18n routing</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/i18n-routing">i18n routing</a></li>
   </ul>
 </details>
 

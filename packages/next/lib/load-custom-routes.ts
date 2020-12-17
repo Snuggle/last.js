@@ -118,14 +118,14 @@ function tryParsePath(route: string, handleUrl?: boolean): ParseAttemptResult {
       const position = parseInt(errMatches[1], 10)
       console.error(
         `\nError parsing \`${route}\` ` +
-          `https://err.sh/vercel/next.js/invalid-route-source\n` +
+          `https://err.sh/last.js/next.js/invalid-route-source\n` +
           `Reason: ${err.message}\n\n` +
           `  ${routePath}\n` +
           `  ${new Array(position).fill(' ').join('')}^\n`
       )
     } else {
       console.error(
-        `\nError parsing ${route} https://err.sh/vercel/next.js/invalid-route-source`,
+        `\nError parsing ${route} https://err.sh/last.js/next.js/invalid-route-source`,
         err
       )
     }
@@ -190,7 +190,7 @@ function checkCustomRoutes(
       console.error(
         `The route ${
           (route as Rewrite).source
-        } rewrites urls outside of the basePath. Please use a destination that starts with \`http://\` or \`https://\` https://err.sh/vercel/next.js/invalid-external-rewrite.md`
+        } rewrites urls outside of the basePath. Please use a destination that starts with \`http://\` or \`https://\` https://err.sh/last.js/next.js/invalid-external-rewrite.md`
       )
       numInvalidRoutes++
       continue

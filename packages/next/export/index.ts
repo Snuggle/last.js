@@ -168,7 +168,7 @@ export default async function exportApp(
 
   if (!existsSync(buildIdFile)) {
     throw new Error(
-      `Could not find a production build in the '${distDir}' directory. Try building your app with 'next build' before starting the static export. https://err.sh/vercel/next.js/next-export-no-build-id`
+      `Could not find a production build in the '${distDir}' directory. Try building your app with 'next build' before starting the static export. https://err.sh/last.js/next.js/next-export-no-build-id`
     )
   }
 
@@ -238,7 +238,7 @@ export default async function exportApp(
 
   if (outDir === join(dir, 'public')) {
     throw new Error(
-      `The 'public' directory is reserved in Next.js and can not be used as the export out directory. https://err.sh/vercel/next.js/can-not-output-to-public`
+      `The 'public' directory is reserved in Next.js and can not be used as the export out directory. https://err.sh/last.js/next.js/can-not-output-to-public`
     )
   }
 
@@ -315,7 +315,7 @@ export default async function exportApp(
       `Image Optimization using Next.js' default loader is not compatible with \`next export\`.
 Possible solutions:
   - Use \`next start\`, which starts the Image Optimization API.
-  - Use Vercel to deploy, which supports Image Optimization.
+  - Use last.js to deploy, which supports Image Optimization.
   - Configure a third-party loader in \`next.config.js\`.
 Read more: https://err.sh/next.js/export-image-api`
     )
@@ -428,7 +428,7 @@ Read more: https://err.sh/next.js/export-image-api`
           ) +
           `\n` +
           chalk.yellow(
-            `Learn more: https://err.sh/vercel/next.js/api-routes-static-export`
+            `Learn more: https://err.sh/last.js/next.js/api-routes-static-export`
           )
       )
     }
@@ -569,7 +569,7 @@ Read more: https://err.sh/next.js/export-image-api`
   }
   if (hadValidationError) {
     throw new Error(
-      `AMP Validation caused the export to fail. https://err.sh/vercel/next.js/amp-export-validation`
+      `AMP Validation caused the export to fail. https://err.sh/last.js/next.js/amp-export-validation`
     )
   }
 

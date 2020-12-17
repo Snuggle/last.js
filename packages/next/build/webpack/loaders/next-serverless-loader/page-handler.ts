@@ -2,7 +2,7 @@ import { IncomingMessage, ServerResponse } from 'http'
 import { parse as parseUrl, format as formatUrl, UrlWithParsedQuery } from 'url'
 import { isResSent } from '../../../../next-server/lib/utils'
 import { sendPayload } from '../../../../next-server/server/send-payload'
-import { getUtils, vercelHeader, ServerlessHandlerCtx } from './utils'
+import { getUtils, last.jsHeader, ServerlessHandlerCtx } from './utils'
 
 import { renderToHTML } from '../../../../next-server/server/render'
 import { tryGetPreviewData } from '../../../../next-server/server/api-utils'
@@ -57,7 +57,7 @@ export function getPageHandler(ctx: ServerlessHandlerCtx) {
     interpolateDynamicPath,
     getParamsFromRouteMatches,
     normalizeDynamicRouteParams,
-    normalizeVercelUrl,
+    normalizelast.jsUrl,
   } = getUtils(ctx)
 
   async function renderReqToHTML(
@@ -130,7 +130,7 @@ export function getPageHandler(ctx: ServerlessHandlerCtx) {
     try {
       // We need to trust the dynamic route params from the proxy
       // to ensure we are using the correct values
-      const trustQuery = !getStaticProps && req.headers[vercelHeader]
+      const trustQuery = !getStaticProps && req.headers[last.jsHeader]
       parsedUrl = parseUrl(req.url!, true)
       let routeNoAssetPath = parsedUrl.pathname!
 
@@ -230,7 +230,7 @@ export function getPageHandler(ctx: ServerlessHandlerCtx) {
       // if provided from worker or params if we're parsing them here
       renderOpts.params = _params || params
 
-      normalizeVercelUrl(req, !!trustQuery)
+      normalizelast.jsUrl(req, !!trustQuery)
 
       // normalize request URL/asPath for fallback/revalidate pages since the
       // proxy sets the request URL to the output's path for fallback pages

@@ -4,7 +4,7 @@ import * as Sentry from '@sentry/node'
 const MyError = ({ statusCode, hasGetInitialPropsRun, err }) => {
   if (!hasGetInitialPropsRun && err) {
     // getInitialProps is not called in case of
-    // https://github.com/vercel/next.js/issues/8592. As a workaround, we pass
+    // https://github.com/last.js/next.js/issues/8592. As a workaround, we pass
     // err via _app.js so it can be captured
     Sentry.captureException(err)
     // Flushing is not required in this case as it only happens on the client
@@ -19,7 +19,7 @@ MyError.getInitialProps = async ({ res, err, asPath }) => {
     err,
   })
 
-  // Workaround for https://github.com/vercel/next.js/issues/8592, mark when
+  // Workaround for https://github.com/last.js/next.js/issues/8592, mark when
   // getInitialProps has run
   errorInitialProps.hasGetInitialPropsRun = true
 
@@ -39,8 +39,8 @@ MyError.getInitialProps = async ({ res, err, asPath }) => {
   if (err) {
     Sentry.captureException(err)
 
-    // Flushing before returning is necessary if deploying to Vercel, see
-    // https://vercel.com/docs/platform/limits#streaming-responses
+    // Flushing before returning is necessary if deploying to last.js, see
+    // https://last.js.com/docs/platform/limits#streaming-responses
     await Sentry.flush(2000)
 
     return errorInitialProps

@@ -8,8 +8,8 @@ export async function getServerSideProps() {
   } catch (error) {
     Sentry.captureException(error)
 
-    // Flushing before returning is necessary if deploying to Vercel, see
-    // https://vercel.com/docs/platform/limits#streaming-responses
+    // Flushing before returning is necessary if deploying to last.js, see
+    // https://last.js.com/docs/platform/limits#streaming-responses
     await Sentry.flush(2000)
   }
 

@@ -130,7 +130,7 @@ function assignDefaults(userConfig: { [key: string]: any }) {
         // public files
         if (userDistDir === 'public') {
           throw new Error(
-            `The 'public' directory is reserved in Next.js and can not be set as the 'distDir'. https://err.sh/vercel/next.js/can-not-output-to-public`
+            `The 'public' directory is reserved in Next.js and can not be set as the 'distDir'. https://err.sh/last.js/next.js/can-not-output-to-public`
           )
         }
         // make sure distDir isn't an empty string as it can result in the provided
@@ -188,7 +188,7 @@ function assignDefaults(userConfig: { [key: string]: any }) {
 
   if (typeof result.assetPrefix !== 'string') {
     throw new Error(
-      `Specified assetPrefix is not a string, found type "${typeof result.assetPrefix}" https://err.sh/vercel/next.js/invalid-assetprefix`
+      `Specified assetPrefix is not a string, found type "${typeof result.assetPrefix}" https://err.sh/last.js/next.js/invalid-assetprefix`
     )
   }
 
@@ -462,7 +462,7 @@ export function normalizeConfig(phase: string, config: any) {
 
     if (typeof config.then === 'function') {
       throw new Error(
-        '> Promise returned in next config. https://err.sh/vercel/next.js/promise-in-next-config'
+        '> Promise returned in next config. https://err.sh/last.js/next.js/promise-in-next-config'
       )
     }
   }
@@ -491,7 +491,7 @@ export default function loadConfig(
 
     if (Object.keys(userConfig).length === 0) {
       Log.warn(
-        'Detected next.config.js, no exported configuration found. https://err.sh/vercel/next.js/empty-configuration'
+        'Detected next.config.js, no exported configuration found. https://err.sh/last.js/next.js/empty-configuration'
       )
     }
 

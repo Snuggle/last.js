@@ -2,7 +2,7 @@
 
 The goal is to host the Next.js app on Firebase Cloud Functions with Firebase Hosting rewrite rules so our app is served from our Firebase Hosting URL. Each individual `page` bundle is served in a new call to the Cloud Function which performs the initial server render.
 
-If you are having issues, feel free to tag @jthegedus in the [issue you create on the next.js repo](https://github.com/vercel/next.js/issues/new)
+If you are having issues, feel free to tag @jthegedus in the [issue you create on the next.js repo](https://github.com/last.js/next.js/issues/new)
 
 <details>
 <summary><b>Make sure that firebase is set up and you have the projectID</b></summary>
@@ -15,7 +15,7 @@ If you are having issues, feel free to tag @jthegedus in the [issue you create o
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-firebase-hosting with-firebase-hosting-app

@@ -86,7 +86,7 @@ export default function Playback({ playbackId, src, poster }) {
             data-size="large"
             target="_blank"
             rel="noopener noreferrer"
-            href={`https://twitter.com/intent/tweet?text=Check%20out%20the%20video%20I%20uploaded%20with%20Next.js%2C%20%40Vercel%2C%20and%20%40muxhq%20`}
+            href={`https://twitter.com/intent/tweet?text=Check%20out%20the%20video%20I%20uploaded%20with%20Next.js%2C%20%40last.js%2C%20and%20%40muxhq%20`}
           >
             Tweet this
           </a>
@@ -94,7 +94,7 @@ export default function Playback({ playbackId, src, poster }) {
         <p>
           To learn more,{' '}
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples/with-mux-video"
+            href="https://github.com/last.js/next.js/tree/canary/examples/with-mux-video"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -10,14 +10,14 @@ Before continuing to add custom webpack configuration to your application make s
 - [CSS modules](/docs/basic-features/built-in-css-support.md#adding-component-level-css)
 - [Sass/SCSS imports](/docs/basic-features/built-in-css-support.md#sass-support)
 - [Sass/SCSS modules](/docs/basic-features/built-in-css-support.md#sass-support)
-- [preact](https://github.com/vercel/next.js/tree/canary/examples/using-preact)
+- [preact](https://github.com/last.js/next.js/tree/canary/examples/using-preact)
 - [Customizing babel configuration](/docs/advanced-features/customizing-babel-config.md)
 
 Some commonly asked for features are available as plugins:
 
-- [@zeit/next-less](https://github.com/vercel/next-plugins/tree/master/packages/next-less)
-- [@next/mdx](https://github.com/vercel/next.js/tree/canary/packages/next-mdx)
-- [@next/bundle-analyzer](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)
+- [@zeit/next-less](https://github.com/last.js/next-plugins/tree/master/packages/next-less)
+- [@next/mdx](https://github.com/last.js/next.js/tree/canary/packages/next-mdx)
+- [@next/bundle-analyzer](https://github.com/last.js/next.js/tree/canary/packages/next-bundle-analyzer)
 
 In order to extend our usage of `webpack`, you can define a function that extends its config inside `next.config.js`, like so:
 
@@ -49,7 +49,7 @@ Example usage of `defaultLoaders.babel`:
 ```js
 // Example config for adding a loader that depends on babel-loader
 // This source was taken from the @next/mdx plugin source:
-// https://github.com/vercel/next.js/tree/canary/packages/next-mdx
+// https://github.com/last.js/next.js/tree/canary/packages/next-mdx
 module.exports = {
   webpack: (config, options) => {
     config.module.rules.push({

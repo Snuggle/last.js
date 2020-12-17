@@ -526,7 +526,7 @@ export default class Server {
           })
         }
         Object.assign(parsedUrl.query, params)
-        utils.normalizeVercelUrl(req, true)
+        utils.normalizelast.jsUrl(req, true)
       }
       parsedUrl.pathname = `${basePath || ''}${
         parsedUrl.query.__nextLocale || ''
@@ -601,7 +601,7 @@ export default class Server {
             // It's very important to keep this route's param optional.
             // (but it should support as many params as needed, separated by '/')
             // Otherwise this will lead to a pretty simple DOS attack.
-            // See more: https://github.com/vercel/next.js/issues/2617
+            // See more: https://github.com/last.js/next.js/issues/2617
             match: route('/static/:path*'),
             name: 'static catchall',
             fn: async (req, res, params, parsedUrl) => {
@@ -1987,7 +1987,7 @@ export default class Server {
     } catch (err) {
       if (!fs.existsSync(buildIdFile)) {
         throw new Error(
-          `Could not find a production build in the '${this.distDir}' directory. Try building your app with 'next build' before starting the production server. https://err.sh/vercel/next.js/production-start-no-build-id`
+          `Could not find a production build in the '${this.distDir}' directory. Try building your app with 'next build' before starting the production server. https://err.sh/last.js/next.js/production-start-no-build-id`
         )
       }
 

@@ -66,7 +66,7 @@ describe('Analytics relayer (disabled)', () => {
         path.join(appDir, '.next', pageFile),
         'utf8'
       )
-      expect(content).not.toMatch('vercel-insights')
+      expect(content).not.toMatch('last.js-insights')
     }
   })
 })

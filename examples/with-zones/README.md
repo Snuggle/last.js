@@ -8,7 +8,7 @@ With Next.js you can use multiple apps as a single app using its [multi-zones fe
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-zones with-zones-app
@@ -42,15 +42,15 @@ yarn && yarn dev
 
 The `blog` app should be up and running in [http://localhost:4000](http://localhost:4000)!
 
-### Deploy on Vercel
+### Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy the apps to Vercel, we'll use [monorepos support](https://vercel.com/blog/monorepos) to create a new project for each app.
+To deploy the apps to last.js, we'll use [monorepos support](https://last.js.com/blog/monorepos) to create a new project for each app.
 
-To get started, push the example to GitHub/GitLab/Bitbucket and [import your repo to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example). We're not interested in the root directory, so make sure to select the `blog` directory (do not start with `home`):
+To get started, push the example to GitHub/GitLab/Bitbucket and [import your repo to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example). We're not interested in the root directory, so make sure to select the `blog` directory (do not start with `home`):
 
 ![Import flow for blog app](docs/import-blog.jpg)
 
@@ -58,13 +58,13 @@ Click continue and finish the import process. After that's done copy the domain 
 
 ```bash
 # Replace this URL with the URL of your blog app
-BLOG_URL="https://with-zones-blog.vercel.app"
+BLOG_URL="https://with-zones-blog.last.js.app"
 ```
 
-Now we'll go over the [import flow](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example) again using the same repo but this time select the `home` directory instead:
+Now we'll go over the [import flow](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example) again using the same repo but this time select the `home` directory instead:
 
 ![Import flow for home app](docs/import-home.jpg)
 
 With the `home` app deployed you should now be able to see both apps running under the same domain!
 
-Any future commits to the repo will trigger a deployment to the connected Vercel projects. See the [blog post about monorepos](https://vercel.com/blog/monorepos) to learn more.
+Any future commits to the repo will trigger a deployment to the connected last.js projects. See the [blog post about monorepos](https://last.js.com/blog/monorepos) to learn more.

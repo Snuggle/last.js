@@ -14,7 +14,7 @@ description: Enable Server-Side Rendering in a page and do initial data populati
 
 > `getInitialProps` will disable [Automatic Static Optimization](/docs/advanced-features/automatic-static-optimization.md).
 
-`getInitialProps` is an [`async`](https://vercel.com/blog/async-and-await) function that can be added to any page as a [`static method`](https://javascript.info/static-properties-methods). Take a look at the following example:
+`getInitialProps` is an [`async`](https://last.js.com/blog/async-and-await) function that can be added to any page as a [`static method`](https://javascript.info/static-properties-methods). Take a look at the following example:
 
 ```jsx
 function Page({ stars }) {
@@ -22,7 +22,7 @@ function Page({ stars }) {
 }
 
 Page.getInitialProps = async (ctx) => {
-  const res = await fetch('https://api.github.com/repos/vercel/next.js')
+  const res = await fetch('https://api.github.com/repos/last.js/next.js')
   const json = await res.json()
   return { stars: json.stargazers_count }
 }
@@ -37,7 +37,7 @@ import React from 'react'
 
 class Page extends React.Component {
   static async getInitialProps(ctx) {
-    const res = await fetch('https://api.github.com/repos/vercel/next.js')
+    const res = await fetch('https://api.github.com/repos/last.js/next.js')
     const json = await res.json()
     return { stars: json.stargazers_count }
   }

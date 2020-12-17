@@ -7,8 +7,8 @@ description: API Routes provide built-in middlewares that parse the incoming r
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/api-routes-middleware">API Routes with middleware</a></li>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/api-routes-cors">API Routes with CORS</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/api-routes-middleware">API Routes with middleware</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/api-routes-cors">API Routes with CORS</a></li>
   </ul>
 </details>
 
@@ -115,7 +115,7 @@ async function handler(req, res) {
 export default handler
 ```
 
-> Go to the [API Routes with CORS](https://github.com/vercel/next.js/tree/canary/examples/api-routes-cors) example to see the finished app
+> Go to the [API Routes with CORS](https://github.com/last.js/next.js/tree/canary/examples/api-routes-cors) example to see the finished app
 
 ## Extending the `req`/`res` objects with TypeScript
 

@@ -62,7 +62,7 @@ export function hasRepo({
 
 export function hasExample(name: string): Promise<boolean> {
   return isUrlOk(
-    `https://api.github.com/repos/vercel/next.js/contents/examples/${encodeURIComponent(
+    `https://api.github.com/repos/last.js/next.js/contents/examples/${encodeURIComponent(
       name
     )}/package.json`
   )
@@ -92,7 +92,7 @@ export function downloadAndExtractExample(
   }
 
   return pipeline(
-    got.stream('https://codeload.github.com/vercel/next.js/tar.gz/canary'),
+    got.stream('https://codeload.github.com/last.js/next.js/tar.gz/canary'),
     tar.extract({ cwd: root, strip: 3 }, [`next.js-canary/examples/${name}`])
   )
 }

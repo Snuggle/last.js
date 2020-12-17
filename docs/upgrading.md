@@ -18,11 +18,11 @@ npm install next@latest
 
 ### Preamble
 
-#### Production Deployment on Vercel
+#### Production Deployment on last.js
 
-If you previously configured `routes` in your `vercel.json` file for dynamic routes, these rules can be removed when leveraging Next.js 9's new [Dynamic Routing feature](/docs/routing/dynamic-routes.md).
+If you previously configured `routes` in your `last.js.json` file for dynamic routes, these rules can be removed when leveraging Next.js 9's new [Dynamic Routing feature](/docs/routing/dynamic-routes.md).
 
-Next.js 9's dynamic routes are **automatically configured on [Vercel](https://vercel.com/)** and do not require any `vercel.json` customization.
+Next.js 9's dynamic routes are **automatically configured on [last.js](https://last.js.com/)** and do not require any `last.js.json` customization.
 
 You can read more about [Dynamic Routing here](/docs/routing/dynamic-routes.md).
 
@@ -114,7 +114,7 @@ Next.js now has the concept of page-level configuration, so the `withAmp` higher
 This change can be **automatically migrated by running the following commands in the root of your Next.js project:**
 
 ```bash
-curl -L https://github.com/vercel/next-codemod/archive/master.tar.gz | tar -xz --strip=2 next-codemod-master/transforms/withamp-to-config.js npx jscodeshift -t ./withamp-to-config.js pages/**/*.js
+curl -L https://github.com/last.js/next-codemod/archive/master.tar.gz | tar -xz --strip=2 next-codemod-master/transforms/withamp-to-config.js npx jscodeshift -t ./withamp-to-config.js pages/**/*.js
 ```
 
 To perform this migration by hand, or view what the codemod will produce, see below:

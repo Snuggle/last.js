@@ -9,7 +9,7 @@ module.exports = {
       },
       {
         source: '/:path*',
-        destination: `https://custom-routes-proxying-endpoint.vercel.app/:path*`,
+        destination: `https://custom-routes-proxying-endpoint.last.js.app/:path*`,
       },
     ]
   },

@@ -241,7 +241,7 @@ export default function (render, fetch, ctx) {
       )
 
       const expectedErrorMessage =
-        '"InstanceInitialPropsPage.getInitialProps()" is defined as an instance method - visit https://err.sh/vercel/next.js/get-initial-props-as-an-instance-method for more information.'
+        '"InstanceInitialPropsPage.getInitialProps()" is defined as an instance method - visit https://err.sh/last.js/next.js/get-initial-props-as-an-instance-method for more information.'
 
       await hasRedbox(browser)
       const text = await getRedboxHeader(browser)
@@ -284,7 +284,7 @@ export default function (render, fetch, ctx) {
 
     test('allows to import .json files', async () => {
       const html = await render('/json')
-      expect(html.includes('Vercel')).toBeTruthy()
+      expect(html.includes('last.js')).toBeTruthy()
     })
 
     test('default export is not a React Component', async () => {

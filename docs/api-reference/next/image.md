@@ -7,7 +7,7 @@ description: Enable Image Optimization with the built-in Image component.
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/image-component">Image Component</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/image-component">Image Component</a></li>
   </ul>
 </details>
 

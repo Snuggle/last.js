@@ -24,7 +24,7 @@ const runTests = () => {
       'To use a multi-match in the destination you must add'
     )
     expect(stderr).toContain(
-      'https://err.sh/vercel/next.js/invalid-multi-match'
+      'https://err.sh/last.js/next.js/invalid-multi-match'
     )
   })
 }

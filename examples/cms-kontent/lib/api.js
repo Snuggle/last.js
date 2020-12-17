@@ -9,7 +9,7 @@ const client = new DeliveryClient({
   globalHeaders: (_queryConfig) => [
     {
       header: sourceTrackingHeaderName,
-      value: `@vercel/next.js/example/${name};${version}`,
+      value: `@last.js/next.js/example/${name};${version}`,
     },
   ],
 })

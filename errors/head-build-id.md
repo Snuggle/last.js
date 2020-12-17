@@ -6,5 +6,5 @@ The deployment was generated incorrectly or the server was overloaded at the tim
 
 #### Possible Ways to Fix It
 
-Please make sure you are using the latest version of the `@vercel/next` builder in your `vercel.json`.
+Please make sure you are using the latest version of the `@last.js/next` builder in your `last.js.json`.
 If this error persists, please file a bug report.

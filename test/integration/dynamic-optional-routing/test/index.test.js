@@ -365,7 +365,7 @@ describe('Dynamic Optional Routing', () => {
       return fetchViaHTTP(appPort, path, query, {
         headers: {
           // force relying on query values
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
         },
       }).then((res) => res.text())
     }

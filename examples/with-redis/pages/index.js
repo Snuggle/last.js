@@ -150,12 +150,12 @@ function Home() {
 
       <footer>
         <a
-          href="http://github.com/vercel/next.js/tree/canary/examples/with-redis"
+          href="http://github.com/last.js/next.js/tree/canary/examples/with-redis"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by
-          <img src="/vercel.svg" alt="Vercel Logo" />
+          <img src="/last.js.svg" alt="last.js Logo" />
           and
           <img src="/lstr.png" alt="Lambda Store Logo" />
         </a>

@@ -6,17 +6,17 @@ In this case we are using [react-with-styles](https://github.com/airbnb/react-wi
 
 For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`.
 
-We are using `pages/_index.js` from this example [with-aphrodite](https://github.com/vercel/next.js/tree/master/examples/with-aphrodite).
+We are using `pages/_index.js` from this example [with-aphrodite](https://github.com/last.js/next.js/tree/master/examples/with-aphrodite).
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com):
+Deploy the example using [last.js](https://last.js.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-react-with-styles)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/import/project?template=https://github.com/last.js/next.js/tree/canary/examples/with-react-with-styles)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-react-with-styles with-react-with-styles-app
@@ -24,4 +24,4 @@ npx create-next-app --example with-react-with-styles with-react-with-styles-app
 yarn create next-app --example with-react-with-styles with-react-with-styles-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

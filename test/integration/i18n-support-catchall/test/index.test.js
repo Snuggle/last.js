@@ -289,7 +289,7 @@ describe('i18n Support Root Catch-all', () => {
 
       const res = await fetchViaHTTP(port, '/[[...slug]]', undefined, {
         headers: {
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
           'x-now-route-matches': qs.stringify({
             '1': 'nl-NL',
           }),
@@ -298,7 +298,7 @@ describe('i18n Support Root Catch-all', () => {
       })
       const res2 = await fetchViaHTTP(port, '/[[...slug]]', undefined, {
         headers: {
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
           'x-now-route-matches': qs.stringify({
             slug: 'eN',
           }),
@@ -307,7 +307,7 @@ describe('i18n Support Root Catch-all', () => {
       })
       const res3 = await fetchViaHTTP(port, '/fr/[[...slug]]', undefined, {
         headers: {
-          'x-vercel-id': 'hi',
+          'x-last.js-id': 'hi',
           'x-now-route-matches': qs.stringify({
             slug: 'hello',
           }),

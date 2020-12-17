@@ -4,7 +4,7 @@ This example app shows how to integrate [React Intl][] with Next.js.
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-react-intl with-react-intl-app
@@ -12,13 +12,13 @@ npx create-next-app --example with-react-intl with-react-intl-app
 yarn create next-app --example with-react-intl with-react-intl-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [last.js](https://last.js.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ## Features of this example app
 
 - Server-side language negotiation
 - React Intl locale data loading via `pages/_document.js` customization
-- React Intl integration with [custom App](https://github.com/vercel/next.js#custom-app) component
+- React Intl integration with [custom App](https://github.com/last.js/next.js#custom-app) component
 - `<IntlProvider>` creation with `locale`, `messages` props
 - Default message extraction via `@formatjs/cli` integration
 - Pre-compile messages into AST with `babel-plugin-react-intl` for performance

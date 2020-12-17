@@ -19,4 +19,4 @@ webpack(config) {
 
 ### Useful Links
 
-- [Related issue](https://github.com/vercel/next.js/issues/6681)
+- [Related issue](https://github.com/last.js/next.js/issues/6681)

@@ -59,7 +59,7 @@ export default function Home() {
         alt="filbert"
       />
       <Heading>
-        <a target="_black" href="https://filbert-js.vercel.app/">
+        <a target="_black" href="https://filbert-js.last.js.app/">
           {' '}
           Welcome to Filbert!
         </a>

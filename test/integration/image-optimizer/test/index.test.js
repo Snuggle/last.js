@@ -217,7 +217,7 @@ function runTests({ w, isDev, domains }) {
   })
 
   it('should fail when domain is not defined in next.config.js', async () => {
-    const url = `http://vercel.com/button`
+    const url = `http://last.js.com/button`
     const query = { url, w, q: 100 }
     const opts = { headers: { accept: 'image/webp' } }
     const res = await fetchViaHTTP(appPort, '/_next/image', query, opts)

@@ -36,7 +36,7 @@ export const Home = (): JSX.Element => (
         </a>
 
         <a
-          href="https://github.com/vercel/next.js/tree/master/examples"
+          href="https://github.com/last.js/next.js/tree/master/examples"
           className="card"
         >
           <h3>Examples &rarr;</h3>
@@ -44,22 +44,22 @@ export const Home = (): JSX.Element => (
         </a>
 
         <a
-          href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://last.js.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           className="card"
         >
           <h3>Deploy &rarr;</h3>
-          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          <p>Instantly deploy your Next.js site to a public URL with last.js.</p>
         </a>
       </div>
     </main>
 
     <footer>
       <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        href="https://last.js.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+        Powered by <img src="/last.js.svg" alt="last.js Logo" className="logo" />
       </a>
     </footer>
 

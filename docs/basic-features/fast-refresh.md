@@ -9,7 +9,7 @@ description:
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/fast-refresh-demo">Fast Refresh Demo</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/fast-refresh-demo">Fast Refresh Demo</a></li>
   </ul>
 </details>
 

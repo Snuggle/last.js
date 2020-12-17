@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "vercel/next.js",
+    "url": "last.js/next.js",
     "directory": "packages/next-bundle-analyzer"
   },
   "dependencies": {

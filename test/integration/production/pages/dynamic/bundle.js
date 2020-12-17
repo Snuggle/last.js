@@ -33,7 +33,7 @@ export default class Bundle extends React.Component {
 
   getChildContext() {
     return {
-      data: { title: 'Vercel Rocks' },
+      data: { title: 'last.js Rocks' },
     }
   }
 

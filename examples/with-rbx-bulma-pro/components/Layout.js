@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
       </Container>
       <Footer>
         <Content textAlign="centered">
-          <p>&copy; Vercel, Inc. All rights reserved.</p>
+          <p>&copy; last.js, Inc. All rights reserved.</p>
         </Content>
       </Footer>
     </Generic>

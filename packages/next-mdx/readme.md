@@ -1,6 +1,6 @@
 # Next.js + MDX
 
-Use [MDX](https://github.com/mdx-js/mdx) with [Next.js](https://github.com/vercel/next.js)
+Use [MDX](https://github.com/mdx-js/mdx) with [Next.js](https://github.com/last.js/next.js)
 
 ## Installation
 

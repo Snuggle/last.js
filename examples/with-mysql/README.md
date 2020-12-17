@@ -4,17 +4,17 @@ This is an example of using [MySQL](https://www.mysql.com/) in a Next.js project
 
 ## Demo
 
-### [https://next-mysql.vercel.app](https://next-mysql.vercel.app/)
+### [https://next-mysql.last.js.app](https://next-mysql.last.js.app/)
 
 ## Deploy your own
 
-Once you have access to [the environment variables you'll need](#step-5-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Once you have access to [the environment variables you'll need](#step-5-set-up-environment-variables), deploy the example using [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql&env=MYSQL_HOST,MYSQL_DATABASE,MYSQL_USERNAME,MYSQL_PASSWORD&project-name=nextjs-mysql&repo-name=nextjs-mysql&envDescription=Required%20to%20connect%20the%20app%20with%20MySQL&envLink=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql%23step-2-set-up-environment-variables&demo-title=Next.js%20%2B%20MySQL%20Demo&demo-description=A%20simple%20app%20demonstrating%20Next.js%20and%20MySQL%20&demo-url=https%3A%2F%2Fnext-mysql.vercel.app%2F)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql&env=MYSQL_HOST,MYSQL_DATABASE,MYSQL_USERNAME,MYSQL_PASSWORD&project-name=nextjs-mysql&repo-name=nextjs-mysql&envDescription=Required%20to%20connect%20the%20app%20with%20MySQL&envLink=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql%23step-2-set-up-environment-variables&demo-title=Next.js%20%2B%20MySQL%20Demo&demo-description=A%20simple%20app%20demonstrating%20Next.js%20and%20MySQL%20&demo-url=https%3A%2F%2Fnext-mysql.last.js.app%2F)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-mysql next-mysql-app
@@ -65,18 +65,18 @@ yarn dev
 
 Your app should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/zeit/next.js/discussions).
 
-## Deploy on Vercel
+## Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
 
 #### Deploy from Our Template
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql&env=MYSQL_HOST,MYSQL_DATABASE,MYSQL_USERNAME,MYSQL_PASSWORD&project-name=nextjs-mysql&repo-name=nextjs-mysql&envDescription=Required%20to%20connect%20the%20app%20with%20MySQL&envLink=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql%23step-2-set-up-environment-variables&demo-title=Next.js%20%2B%20MySQL%20Demo&demo-description=A%20simple%20app%20demonstrating%20Next.js%20and%20MySQL%20&demo-url=https%3A%2F%2Fnext-mysql.vercel.app%2F)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql&env=MYSQL_HOST,MYSQL_DATABASE,MYSQL_USERNAME,MYSQL_PASSWORD&project-name=nextjs-mysql&repo-name=nextjs-mysql&envDescription=Required%20to%20connect%20the%20app%20with%20MySQL&envLink=https%3A%2F%2Fgithub.com%2Flast.js%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mysql%23step-2-set-up-environment-variables&demo-title=Next.js%20%2B%20MySQL%20Demo&demo-description=A%20simple%20app%20demonstrating%20Next.js%20and%20MySQL%20&demo-url=https%3A%2F%2Fnext-mysql.last.js.app%2F)

@@ -148,7 +148,7 @@ export default async function exportPage({
         }
       } else {
         throw new Error(
-          `The provided export path '${updatedPath}' doesn't match the '${page}' page.\nRead more: https://err.sh/vercel/next.js/export-path-mismatch`
+          `The provided export path '${updatedPath}' doesn't match the '${page}' page.\nRead more: https://err.sh/last.js/next.js/export-path-mismatch`
         )
       }
     }

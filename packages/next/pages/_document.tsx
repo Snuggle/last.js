@@ -692,7 +692,7 @@ export class NextScript extends Component<OriginProps> {
     } catch (err) {
       if (err.message.indexOf('circular structure')) {
         throw new Error(
-          `Circular structure in "getInitialProps" result of page "${__NEXT_DATA__.page}". https://err.sh/vercel/next.js/circular-structure`
+          `Circular structure in "getInitialProps" result of page "${__NEXT_DATA__.page}". https://err.sh/last.js/next.js/circular-structure`
         )
       }
       throw err

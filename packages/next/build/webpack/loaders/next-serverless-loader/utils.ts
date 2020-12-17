@@ -24,7 +24,7 @@ import { NextConfig } from '../../../../next-server/server/config'
 
 const getCustomRouteMatcher = pathMatch(true)
 
-export const vercelHeader = 'x-vercel-id'
+export const last.jsHeader = 'x-last.js-id'
 
 export type ServerlessHandlerCtx = {
   page: string
@@ -256,8 +256,8 @@ export function getUtils({
     return pathname
   }
 
-  function normalizeVercelUrl(req: IncomingMessage, trustQuery: boolean) {
-    // make sure to normalize req.url on Vercel to strip dynamic params
+  function normalizelast.jsUrl(req: IncomingMessage, trustQuery: boolean) {
+    // make sure to normalize req.url on last.js to strip dynamic params
     // from the query which are added during routing
     if (pageIsDynamic && trustQuery && defaultRouteRegex) {
       const _parsedUrl = parseUrl(req.url!, true)
@@ -296,7 +296,7 @@ export function getUtils({
           (Array.isArray(value) &&
             value.length === 1 &&
             // fallback optional catch-all SSG pages have
-            // [[...paramName]] for the root path on Vercel
+            // [[...paramName]] for the root path on last.js
             (value[0] === 'index' || value[0] === `[[...${key}]]`)))
       ) {
         value = undefined
@@ -409,7 +409,7 @@ export function getUtils({
 
     if (
       !shouldNotRedirect &&
-      !req.headers[vercelHeader] &&
+      !req.headers[last.jsHeader] &&
       i18n.localeDetection !== false &&
       (localeDomainRedirect ||
         shouldAddLocalePrefix ||
@@ -468,7 +468,7 @@ export function getUtils({
     handleRewrites,
     handleBasePath,
     defaultRouteRegex,
-    normalizeVercelUrl,
+    normalizelast.jsUrl,
     dynamicRouteMatcher,
     defaultRouteMatches,
     interpolateDynamicPath,

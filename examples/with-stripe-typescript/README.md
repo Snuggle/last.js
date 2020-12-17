@@ -35,9 +35,9 @@ Read more about testing on Stripe at https://stripe.com/docs/testing.
 
 ## Deploy your own
 
-Once you have access to [the environment variables you'll need](#required-configuration) from the [Stripe Dashboard](https://dashboard.stripe.com/apikeys), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Once you have access to [the environment variables you'll need](#required-configuration) from the [Stripe Dashboard](https://dashboard.stripe.com/apikeys), deploy the example using [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
+[![Deploy to last.js](https://last.js.com/button)](https://last.js.com/import/select-scope?c=1&s=https://github.com/last.js/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/last.js/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
 
 ## Included functionality
 
@@ -63,7 +63,7 @@ Once you have access to [the environment variables you'll need](#required-config
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-stripe-typescript with-stripe-typescript-app
@@ -112,7 +112,7 @@ The CLI will print a webhook secret key to the console. Set `STRIPE_WEBHOOK_SECR
 
 After deploying, copy the deployment URL with the webhook path (`https://your-url.now.sh/api/webhooks`) and create a live webhook endpoint [in your Stripe dashboard](https://stripe.com/docs/webhooks/setup#configure-webhook-settings).
 
-Once created, you can click to reveal your webhook's signing secret. Copy the webhook secret (`whsec_***`) and add it as a new environment variable in your [Vercel Dashboard](https://vercel.com/dashboard):
+Once created, you can click to reveal your webhook's signing secret. Copy the webhook secret (`whsec_***`) and add it as a new environment variable in your [last.js Dashboard](https://last.js.com/dashboard):
 
 - Select your newly created project.
 - Navigate to the Settings tab.
@@ -120,21 +120,21 @@ Once created, you can click to reveal your webhook's signing secret. Copy the we
 
 After adding an environment variable you will need to rebuild your project for it to become within your code. Within your project Dashboard, navigate to the "Deployments" tab, select the most recent deployment, click the overflow menu button (next to the "Visit" button) and select "Redeploy".
 
-### Deploy on Vercel
+### Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
 
 #### Deploy from Our Template
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
+[![Deploy to last.js](https://last.js.com/button)](https://last.js.com/import/select-scope?c=1&s=https://github.com/last.js/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/last.js/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
 
 ## Authors
 

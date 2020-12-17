@@ -4,13 +4,13 @@ An example using [Deta Base](https://docs.deta.sh/docs/base/about) in a Next.js 
 
 ## Deploy your own
 
-Once you have access to [the environment variables you'll need](#step-2-setting-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Once you have access to [the environment variables you'll need](#step-2-setting-up-environment-variables), deploy the example using [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-deta-base&env=DETA_PROJECT_KEY&envDescription=The%20Deta%20Project%20Key%2C%20found%20in%20the%20Deta%20dashboard&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-deta-base%23configuration)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https://github.com/last.js/next.js/tree/canary/examples/with-deta-base&env=DETA_PROJECT_KEY&envDescription=The%20Deta%20Project%20Key%2C%20found%20in%20the%20Deta%20dashboard&envLink=https://github.com/last.js/next.js/tree/canary/examples/with-deta-base%23configuration)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/last.js/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-deta-base with-deta-base-app
@@ -54,20 +54,20 @@ yarn install
 yarn dev
 ```
 
-Your todo app should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+Your todo app should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/last.js/next.js/discussions).
 
-### Step 4. Deploy on Vercel
+### Step 4. Deploy on last.js
 
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this app to the cloud with [last.js](https://last.js.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 #### Deploy Your Local Project
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+To deploy your local project to last.js, push it to GitHub/GitLab/Bitbucket and [import to last.js](https://last.js.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
+**Important**: When you import your project on last.js, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
 
 #### Deploy from Our Template
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-deta-base&env=DETA_PROJECT_KEY&envDescription=The%20Deta%20Project%20Key%2C%20found%20in%20the%20Deta%20dashboard&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-deta-base%23configuration)
+[![Deploy with last.js](https://last.js.com/button)](https://last.js.com/new/git/external?repository-url=https://github.com/last.js/next.js/tree/canary/examples/with-deta-base&env=DETA_PROJECT_KEY&envDescription=The%20Deta%20Project%20Key%2C%20found%20in%20the%20Deta%20dashboard&envLink=https://github.com/last.js/next.js/tree/canary/examples/with-deta-base%23configuration)

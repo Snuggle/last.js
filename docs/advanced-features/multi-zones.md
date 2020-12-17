@@ -3,7 +3,7 @@
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/with-zones">With Zones</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/with-zones">With Zones</a></li>
   </ul>
 </details>
 
@@ -27,4 +27,4 @@ There are no special zones related APIs. You only need to do following:
 
 You can merge zones using [Rewrites](/docs/api-reference/next.config.js/rewrites.md) in one of the apps or any HTTP proxy.
 
-For [Vercel](https://vercel.com/), you can use a [monorepo](https://vercel.com/blog/monorepos) to deploy both apps. Check the [Monorepos blog post](https://vercel.com/blog/monorepos) for more details on how it works and our [`with-zones` example](https://github.com/vercel/next.js/tree/canary/examples/with-zones) for a detailed guide using multiple Next.js applications.
+For [last.js](https://last.js.com/), you can use a [monorepo](https://last.js.com/blog/monorepos) to deploy both apps. Check the [Monorepos blog post](https://last.js.com/blog/monorepos) for more details on how it works and our [`with-zones` example](https://github.com/last.js/next.js/tree/canary/examples/with-zones) for a detailed guide using multiple Next.js applications.

@@ -58,7 +58,7 @@ If you want to render the built-in error page you can by importing the `Error` c
 import Error from 'next/error'
 
 export async function getServerSideProps() {
-  const res = await fetch('https://api.github.com/repos/vercel/next.js')
+  const res = await fetch('https://api.github.com/repos/last.js/next.js')
   const errorCode = res.ok ? false : res.statusCode
   const json = await res.json()
 

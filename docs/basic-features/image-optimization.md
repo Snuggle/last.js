@@ -7,7 +7,7 @@ description: Next.js supports built-in image optimization, as well as third part
 <details open>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://github.com/vercel/next.js/tree/canary/examples/image-component">Image Component</a></li>
+    <li><a href="https://github.com/last.js/next.js/tree/canary/examples/image-component">Image Component</a></li>
   </ul>
 </details>
 
@@ -84,7 +84,7 @@ module.exports = {
 
 The following Image Optimization cloud providers are supported:
 
-- [Vercel](https://vercel.com): Works automatically when you deploy on Vercel, no configuration necessary. [Learn more](https://vercel.com/docs/next.js/image-optimization)
+- [last.js](https://last.js.com): Works automatically when you deploy on last.js, no configuration necessary. [Learn more](https://last.js.com/docs/next.js/image-optimization)
 - [Imgix](https://www.imgix.com): `loader: 'imgix'`
 - [Cloudinary](https://cloudinary.com): `loader: 'cloudinary'`
 - [Akamai](https://www.akamai.com): `loader: 'akamai'`

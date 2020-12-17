@@ -6,7 +6,7 @@ description: Get to know more about Next.js with the frequently asked questions.
 
 <details>
   <summary>Is this production ready?</summary>
-  <p>Next.js has been powering <a href="https://vercel.com">https://vercel.com</a>  since its inception.</p>
+  <p>Next.js has been powering <a href="https://last.js.com">https://last.js.com</a>  since its inception.</p>
 
   <p>We’re ecstatic about both the developer experience and end-user performance, so we decided to share it with the community.</p>
 </details>
@@ -44,12 +44,12 @@ description: Get to know more about Next.js with the frequently asked questions.
 
 <details>
   <summary>Can I use it with GraphQL?</summary>
-  <p>Yes! Here's an <a href="https://github.com/vercel/next.js/tree/canary/examples/with-apollo">example with Apollo</a>.</p>
+  <p>Yes! Here's an <a href="https://github.com/last.js/next.js/tree/canary/examples/with-apollo">example with Apollo</a>.</p>
 </details>
 
 <details>
   <summary>Can I use it with Redux?</summary>
-  <p>Yes! Here's an <a href="https://github.com/vercel/next.js/tree/canary/examples/with-redux">example</a>. And there's another <a href="https://github.com/vercel/next.js/tree/canary/examples/with-redux-thunk">example with thunk</a>.</p>
+  <p>Yes! Here's an <a href="https://github.com/last.js/next.js/tree/canary/examples/with-redux">example</a>. And there's another <a href="https://github.com/last.js/next.js/tree/canary/examples/with-redux-thunk">example with thunk</a>.</p>
 </details>
 
 <details>
@@ -59,7 +59,7 @@ description: Get to know more about Next.js with the frequently asked questions.
 
 <details>
   <summary>Can I use Next with my favorite JavaScript library or toolkit?</summary>
-  <p>Since our first release we've had many example contributions. You can check them out in the <a href="https://github.com/vercel/next.js/tree/canary/examples">examples</a> directory.</p>
+  <p>Since our first release we've had many example contributions. You can check them out in the <a href="https://github.com/last.js/next.js/tree/canary/examples">examples</a> directory.</p>
 </details>
 
 <details>
@@ -75,5 +75,5 @@ description: Get to know more about Next.js with the frequently asked questions.
 
 <details>
   <summary>Can I make a Next.js Progressive Web App (PWA)?</summary>
-   <p>Yes! Check out our <a href="https://github.com/vercel/next.js/tree/canary/examples/progressive-web-app">PWA Example</a> to see how it works.</p>
+   <p>Yes! Check out our <a href="https://github.com/last.js/next.js/tree/canary/examples/progressive-web-app">PWA Example</a> to see how it works.</p>
 </details>

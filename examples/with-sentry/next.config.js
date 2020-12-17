@@ -27,7 +27,7 @@ module.exports = withSourceMaps({
   env: {
     // Make the COMMIT_SHA available to the client so that Sentry events can be
     // marked for the release they belong to. It may be undefined if running
-    // outside of Vercel
+    // outside of last.js
     NEXT_PUBLIC_COMMIT_SHA: COMMIT_SHA,
   },
   webpack: (config, options) => {

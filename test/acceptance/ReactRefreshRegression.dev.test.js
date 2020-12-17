@@ -3,7 +3,7 @@ import { sandbox } from './helpers'
 
 jest.setTimeout(1000 * 60 * 5)
 
-// https://github.com/vercel/next.js/issues/12422
+// https://github.com/last.js/next.js/issues/12422
 test('styled-components hydration mismatch', async () => {
   const files = new Map()
   files.set(
@@ -68,7 +68,7 @@ test('styled-components hydration mismatch', async () => {
   await cleanup()
 })
 
-// https://github.com/vercel/next.js/issues/13978
+// https://github.com/last.js/next.js/issues/13978
 test('can fast refresh a page with getStaticProps', async () => {
   const [session, cleanup] = await sandbox()
 
@@ -131,7 +131,7 @@ test('can fast refresh a page with getStaticProps', async () => {
   await cleanup()
 })
 
-// https://github.com/vercel/next.js/issues/13978
+// https://github.com/last.js/next.js/issues/13978
 test('can fast refresh a page with getServerSideProps', async () => {
   const [session, cleanup] = await sandbox()
 
@@ -194,7 +194,7 @@ test('can fast refresh a page with getServerSideProps', async () => {
   await cleanup()
 })
 
-// https://github.com/vercel/next.js/issues/13978
+// https://github.com/last.js/next.js/issues/13978
 test('can fast refresh a page with config', async () => {
   const [session, cleanup] = await sandbox()
 
@@ -255,7 +255,7 @@ test('can fast refresh a page with config', async () => {
   await cleanup()
 })
 
-// https://github.com/vercel/next.js/issues/11504
+// https://github.com/last.js/next.js/issues/11504
 test('shows an overlay for a server-side error', async () => {
   const [session, cleanup] = await sandbox()
 
@@ -281,7 +281,7 @@ test('shows an overlay for a server-side error', async () => {
   await cleanup()
 })
 
-// https://github.com/vercel/next.js/issues/13574
+// https://github.com/last.js/next.js/issues/13574
 test('custom loader (mdx) should have Fast Refresh enabled', async () => {
   const files = new Map()
   files.set(
